@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoConsumo – Consumo Sustentável</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-sA+e2VChjXQkH1N8+MwTxjWcS4DpZm4pW+dK4Rf3Emk="
+    crossorigin=""
+  />
+</head>
+<body>
+  <header>
+    <div class="logo">🌱 EcoConsumo</div>
+    <nav>
+      <ul>
+        <li><a href="#mapa">Mapa</a></li>
+        <li><a href="#empresas">Empresas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="mapa">
+      <h2>Encontre empresas sustentáveis perto de você</h2>
+      <div id="mapaContainer"></div>
+    </section>
+
+    <section id="empresas">
+      <h2>Empresas em Destaque</h2>
+      <div class="empresa-lista">
+        <div class="empresa-card">
+          <h3>Loja Verde Natural</h3>
+          <p>Produtos orgânicos e sustentáveis – São Paulo, SP</p>
+        </div>
+        <div class="empresa-card">
+          <h3>Eco Moda Sustentável</h3>
+          <p>Roupas feitas com tecidos reciclados – Curitiba, PR</p>
+        </div>
+        <div class="empresa-card">
+          <h3>BioCosméticos</h3>
+          <p>Cosméticos naturais sem testes em animais – Belo Horizonte, MG</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="footer-content">
+      <p>&copy; 2025 EcoConsumo – Todos os direitos reservados</p>
+      <p>Email: contato@ecoconsumo.com.br</p>
+    </div>
+  </footer>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-o9N1j8RE9+a5N9uM4YpGxEoxVn8RQykFuqL8+C+3SZo="
+    crossorigin=""
+  ></script>
+  <script src="script.js"></script>
+</body>
+</html>
